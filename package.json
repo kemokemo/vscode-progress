@@ -9,15 +9,12 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [
-    "onCommand:vscode-progress.helloWorld"
-  ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "vscode-progress.helloWorld",
-        "title": "Hello World"
+        "command": "vscode-progress.doTask",
+        "title": "Sample Task"
       }
     ]
   },
